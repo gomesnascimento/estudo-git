@@ -33,5 +33,11 @@ function diminuri(idade1,idade2){
 diminuir(2023,1990);
 
 
+function ehMinhaIdade(idade){
+
+    return idade >= 18; 
+}
+console.log(ehMinhaIdade(19))
+
 
 
